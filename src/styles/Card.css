@@ -1,0 +1,29 @@
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 4%;
+  width: 50px;
+  padding: 5px;
+  background-color: white;
+}
+
+.card > .value {
+  color: black;
+  font-weight: bold;
+  padding: 10px 10px 5px 10px;
+}
+
+.card > .blackSuite {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.card > .redSuite {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.cardSelected {
+  transform: translateY(-20px);
+}

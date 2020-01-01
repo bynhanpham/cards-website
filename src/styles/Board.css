@@ -1,0 +1,27 @@
+.player1 {
+  background: gray;
+  max-height: 35%;
+  min-height: 35%;
+}
+
+.player1 > div {
+  position: relative;
+}
+
+.player1 > div > div {
+  position: absolute;
+  bottom: -60px;
+  left: -50vw;
+  width: 100vw;
+}
+
+.player3 {
+  background: green;
+  max-height: 30%;
+  min-height: 30%;
+}
+
+.inPlay {
+  max-height: 35%;
+  min-height: 35%;
+}
